@@ -13,6 +13,8 @@ func main() {
 		fallthrough
 	case i >= 20:
 		fmt.Println("greater than or equal 20")
+	case i > 20:
+		fmt.Println("greater")
 	default:
 		fmt.Println("greater than 20")
 	}
